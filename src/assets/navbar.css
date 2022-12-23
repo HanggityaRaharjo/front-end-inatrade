@@ -1,0 +1,14 @@
+.animasi-nav {
+  color: rgb(74 222 128);
+  opacity: 1;
+  animation: nav-animation 1s;
+}
+
+@keyframes nav-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
